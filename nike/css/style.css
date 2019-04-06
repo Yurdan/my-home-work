@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+}
+.block-main {
+    height: 600px;
+    width: 800px;
+    background: url(../img/main.jpg) center no-repeat;
+} 
+
+.block-content {
+    background: #111a28;
+    border-radius: 10px;
+    height: 391px;
+    width: 686px;
+    box-shadow: -1px -1px 20px black;
+}
+.block-content-name {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    
+
+}
+.block-content-describe {
+    font-size: 14px;
+}
+.block-content-size,
+.block-content-qty /* а так можно?????? */
+ {
+    height: 35px;
+    width: 65px;
+    border: 1px solid #4f5560;
+    background: none;
+    color: #4f5560;
+}
+ option {
+    color: #111a28;    /* так можно или нет??????????  */
+}
+.block-content-button {
+    height: 40px;
+    width: 160px;
+    border: 1px solid #4f5560;
+    background-color: #202835;
+    color: #4f5560;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.block-main__nike {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-content__header {
+    margin: 23px auto 20px 20px;
+}
+
+.block-content__snickers {
+    margin-left: 40px;
+    margin-right: 80px;
+    margin-top: 50px;
+    float: left;
+}
+
+.block-content__choice {
+    text-align: left;
+    
+}
+.block-content__choice-form {
+    margin-top: 20px;
+}
+
+
+.block-content-button--margin {
+    margin-top: 20px;
+}
+
+
